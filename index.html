@@ -1,218 +1,164 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Nishanth KV | AI-Powered Instructional Designer</title>
+    <title>Nishanth KV | Instructional Designer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-        html { scroll-behavior: smooth; }
-
         body {
             margin: 0;
             font-family: 'Segoe UI', sans-serif;
-            background: #0f172a;
-            color: #f1f5f9;
+            background: #f8fafc;
+            color: #1e293b;
+        }
+
+        .navbar {
+            background: white;
+            padding: 15px 40px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #1e293b;
+            margin-left: 20px;
+            font-weight: 500;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1100px;
             margin: auto;
-            padding: 80px 20px;
+            padding: 60px 20px;
         }
 
         h1 {
-            font-size: 48px;
+            font-size: 40px;
             margin-bottom: 10px;
         }
 
         h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
+            margin-top: 60px;
+            font-size: 28px;
         }
 
         p {
-            color: #cbd5e1;
             line-height: 1.6;
-        }
-
-        .hero {
-            text-align: center;
-            padding-top: 120px;
-        }
-
-        .hero h1 {
-            font-weight: 700;
-        }
-
-        .metrics {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            margin-top: 40px;
-        }
-
-        .metric {
-            margin: 20px;
-            text-align: center;
-        }
-
-        .metric h3 {
-            font-size: 28px;
-            margin-bottom: 5px;
-            color: #38bdf8;
+            color: #475569;
         }
 
         .button {
             display: inline-block;
-            margin: 15px 10px;
-            padding: 12px 24px;
-            border-radius: 6px;
+            margin-top: 15px;
+            padding: 10px 18px;
+            background: #2563eb;
+            color: white;
             text-decoration: none;
-            font-weight: 600;
-            transition: 0.3s ease;
+            border-radius: 6px;
+            transition: 0.3s;
         }
 
-        .primary {
-            background: #38bdf8;
-            color: #0f172a;
-        }
-
-        .primary:hover {
-            background: #0ea5e9;
-        }
-
-        .secondary {
-            border: 1px solid #38bdf8;
-            color: #38bdf8;
-        }
-
-        .secondary:hover {
-            background: #38bdf8;
-            color: #0f172a;
-        }
-
-        .section {
-            margin-top: 100px;
+        .button:hover {
+            background: #1d4ed8;
         }
 
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
+            gap: 25px;
+            margin-top: 30px;
         }
 
         .card {
-            background: #1e293b;
+            background: white;
             padding: 25px;
-            border-radius: 10px;
-            transition: 0.3s ease;
-        }
-
-        .card:hover {
-            transform: translateY(-8px);
-            background: #334155;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         }
 
         footer {
             text-align: center;
             padding: 40px;
-            margin-top: 100px;
-            border-top: 1px solid #334155;
-            color: #94a3b8;
+            color: #64748b;
+            margin-top: 80px;
         }
-
-        a {
-            color: inherit;
-        }
-
     </style>
 </head>
 
 <body>
 
+<div class="navbar">
+    <div><strong>Nishanth KV</strong></div>
+    <div>
+        <a href="index.html">Home</a>
+        <a href="ai-learning-case-study/">AI Case Study</a>
+        <a href="clients/">Clients</a>
+        <a href="rise/operating-systems.html">Rise Module</a>
+        <a href="vyond/">Media</a>
+    </div>
+</div>
+
 <div class="container">
 
-    <!-- HERO -->
-    <div class="hero">
-        <h1>Building Scalable Learning Systems Powered by AI & Instructional Strategy</h1>
-        <p>
-            AI-Powered Instructional Designer with 3.7 years of experience leading large-scale digital curriculum transformation across higher education and corporate environments.
-        </p>
+    <h1>AI-Powered Instructional Designer</h1>
+    <p>
+        I design scalable, outcome-driven digital learning systems combining instructional science, 
+        corporate curriculum transformation, and AI-augmented workflows.
+    </p>
 
-        <a href="ai-learning-case-study/" class="button primary">View AI Case Study</a>
-        <a href="clients/" class="button secondary">Corporate Projects</a>
-
-        <div class="metrics">
-            <div class="metric">
-                <h3>300+</h3>
-                <p>SCORM Modules Designed</p>
-            </div>
-            <div class="metric">
-                <h3>180+</h3>
-                <p>Interactive Courses Built</p>
-            </div>
-            <div class="metric">
-                <h3>60%</h3>
-                <p>AI Workflow Efficiency Gain</p>
-            </div>
-            <div class="metric">
-                <h3>12+</h3>
-                <p>Developers Mentored</p>
-            </div>
+    <h2>Professional Impact</h2>
+    <div class="grid">
+        <div class="card">
+            <strong>300+ SCORM Modules</strong>
+            <p>Designed across 42+ academic specializations.</p>
+        </div>
+        <div class="card">
+            <strong>180+ Interactive Courses</strong>
+            <p>Storyline & Rise-based performance learning modules.</p>
+        </div>
+        <div class="card">
+            <strong>60% Faster Production</strong>
+            <p>Through AI-integrated development workflows.</p>
+        </div>
+        <div class="card">
+            <strong>LMS Deployment Leadership</strong>
+            <p>Moodle analytics, SCORM compliance & reporting.</p>
         </div>
     </div>
 
-    <!-- EXPERTISE -->
-    <div class="section">
-        <h2>Core Expertise</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Instructional Strategy</h3>
-                <p>Action Mapping, Bloom’s Taxonomy, Performance-Based Learning, Competency Framework Alignment.</p>
-            </div>
-            <div class="card">
-                <h3>AI-Augmented Workflows</h3>
-                <p>Prompt Engineering, ChatGPT Integration, AI Video, Content Automation with Pedagogical Validation.</p>
-            </div>
-            <div class="card">
-                <h3>Multimedia Development</h3>
-                <p>Storyline, Rise, Vyond, Camtasia, AI Avatars, Motion-Based Learning Assets.</p>
-            </div>
-            <div class="card">
-                <h3>LMS & Analytics</h3>
-                <p>Moodle Deployment, SCORM Compliance, Performance Tracking, Data-Driven Iteration.</p>
-            </div>
+    <h2>Featured Work</h2>
+    <div class="grid">
+        <div class="card">
+            <strong>AI Learning Case Study</strong>
+            <p>AI-assisted scripting and avatar-based learning experience.</p>
+            <a href="ai-learning-case-study/" class="button">View Project</a>
         </div>
-    </div>
 
-    <!-- FEATURED WORK -->
-    <div class="section">
-        <h2>Featured Work</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>Operating Systems (Rise)</h3>
-                <a href="rise/operating-systems.html" class="button primary">Launch Module</a>
-            </div>
-            <div class="card">
-                <h3>AI Case Study</h3>
-                <a href="ai-learning-case-study/" class="button primary">View Project</a>
-            </div>
-            <div class="card">
-                <h3>Client Portfolio</h3>
-                <a href="clients/" class="button primary">View Projects</a>
-            </div>
-            <div class="card">
-                <h3>Multimedia (Vyond)</h3>
-                <a href="vyond/" class="button primary">Watch Videos</a>
-            </div>
+        <div class="card">
+            <strong>Corporate Client Portfolio</strong>
+            <p>Storyline and Rise-based corporate modules.</p>
+            <a href="clients/" class="button">View Projects</a>
+        </div>
+
+        <div class="card">
+            <strong>Operating Systems (Rise)</strong>
+            <p>Structured interactive technical module.</p>
+            <a href="rise/operating-systems.html" class="button">Launch Module</a>
+        </div>
+
+        <div class="card">
+            <strong>Multimedia (Vyond)</strong>
+            <p>Animated HR explainer videos.</p>
+            <a href="vyond/" class="button">Watch Videos</a>
         </div>
     </div>
 
 </div>
 
 <footer>
-    © 2026 Nishanth KV | AI-Powered Instructional Designer | Bengaluru
+    © 2026 Nishanth KV | Bengaluru
 </footer>
 
 </body>
